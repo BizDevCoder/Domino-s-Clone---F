@@ -82,7 +82,8 @@
     color: #fff;
     font-size: larger;
     display: flex;
-    padding: 0px 50px;
+    padding: 0px 10px;
+    margin-top: 100px;
     flex-direction: column;
     row-gap: 12px;
     position: relative;
@@ -180,4 +181,23 @@ margin-left: 20px;
     text-transform: uppercase;
     font-weight: 650;
     color: #f3223b;
+}
+
+.app-item{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    padding: 50px;
+    height: 60vh;
+    border: none;
+    background-color: #ebf3fb;
+}
+
+.app-item .img-app{
+    display: flex;
+    align-items: baseline;
+    /* padding: 10em; */
+    margin: 102px 50px 60px 80px;
+    border: none;
+
 }
