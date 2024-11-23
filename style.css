@@ -195,9 +195,24 @@ margin-left: 20px;
 
 .app-item .img-app{
     display: flex;
-    align-items: baseline;
-    /* padding: 10em; */
     margin: 102px 50px 60px 80px;
     border: none;
+}
 
+.app-cont{
+    position: relative;
+    padding: 20px;
+    /* margin: 80px; */
+}
+
+.app-cont h1{
+    font-size: 40px;
+    color: #59688c;
+}
+.app-cont p{
+    font-size: 20px;
+    line-height: 43px;
+    letter-spacing: 0.24px;
+    color: #8899c0;
+    max-width: 457px;
 }
