@@ -90,10 +90,11 @@
 }
 
 .hero-content img{
-    height: 160px;
+    height: 150px;
+    width: 490px;
 }
 .hero-btn{
-    padding: 12px 164px;
+    padding: 12px 124px;
     background-color: #1fb31a;
     color: #fff;
     text-transform: uppercase;
@@ -201,7 +202,7 @@ margin-left: 20px;
 
 .app-cont{
     position: relative;
-    padding: 20px;
+    padding: 100px;
     /* margin: 80px; */
 }
 
@@ -216,3 +217,49 @@ margin-left: 20px;
     color: #8899c0;
     max-width: 457px;
 }
+
+.app-cont img{
+    margin-top: 30px;
+    display: flex;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+
+.seo-content{
+margin: 80px 40px;
+display: grid;
+row-gap: 30px;
+}
+
+.seo-head{
+    color: #1a5ca3;
+}
+
+.footer{
+    background-color: #222e3a;
+    padding: 20px;
+    float: left;
+    display: flex;
+    width: 100%;
+    height: 48vh;
+}
+
+.first{
+    margin-right: 60px;
+    
+}
+
+.first h1{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 24px;
+    color: #546273;
+}
+
+.first p{
+    color: #ebf3fb;
+}
+
+
