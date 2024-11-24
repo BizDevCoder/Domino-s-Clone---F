@@ -238,16 +238,18 @@ row-gap: 30px;
 }
 
 .footer{
-    background-color: #222e3a;
+    background-color: #2b3f52;
     padding: 20px;
     float: left;
     display: flex;
     width: 100%;
-    height: 48vh;
+    height: 44vh;
+    
 }
 
 .first{
     margin-right: 60px;
+
     
 }
 
@@ -258,8 +260,28 @@ row-gap: 30px;
     color: #546273;
 }
 
-.first p{
-    color: #ebf3fb;
+.first ul{
+    color: #bdcbda;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.first i{
+    color: #90a4b7;
+    display: flex;
+    float: left;
+    margin-right: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.copyright{
+    display: flex;
+    color: #5c6f83;
+    border-top: 1px dotted #8899c0;
+    justify-content: center;
+    padding: 1.4em;
+    background: #1a2735;
 }
 
 
